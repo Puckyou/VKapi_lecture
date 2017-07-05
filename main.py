@@ -16,7 +16,7 @@ def oauth_link():
     }
     return "?".join((AOTH_URL, urlencode(auth_data)))
 
-TOKEN = "c710e7419e0de4f961ffb5aaf9e7c2acde4f5e31c400d64d799a9ecf81aa11b95af10d378ded35d432656"
+TOKEN = ""
 
 def get_freind_l():
     param = {
